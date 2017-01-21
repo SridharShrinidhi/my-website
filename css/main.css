@@ -80,12 +80,21 @@ h1 {
 }
 
 .pdf {
-  text-align: left;
+  text-align: center;
 }
 
 .pdf a  {
   color: #ccc;;
   text-decoration: underline;
+}
+
+.contact {
+  text-align: center;
+  float: left;
+  width: 100%;
+  background-color: #ccc;
+  padding: 1rem 1rem;
+
 }
 
 @media only screen and (min-width: 25em) {
@@ -198,6 +207,11 @@ html {
 
   .nav a {
     color: #fff;
+    text-decoration: none;
+  }
+
+  .nav a:visited {
+    color: #ccc;
   }
 
   .about {
