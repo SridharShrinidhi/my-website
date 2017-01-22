@@ -25,15 +25,21 @@ img {
 
 .m-1 {
   display: inline-block;
-  width: 100%;
+  width: 50%;
   text-align: center;
-  margin: auto;
-  padding: 1rem 0;
+  margin: 0 auto;
+  align-content: center;
 }
 
 .m-1-3 {
   display: inline-block;
   width: 32%;
+}
+
+.m-2-3 {
+  display: inline-block;
+  width: 32%;
+  margin: 1rem auto;
 }
 
 
@@ -46,7 +52,6 @@ img {
   width: 50%;
   text-align: center;
   margin: auto;
-  padding: 1rem 0;
 }
 
 .l-1-2 {
@@ -66,5 +71,4 @@ img {
   width: 50%;
   text-align: center;
   margin: auto;
-  padding: 1rem 0;
 }
