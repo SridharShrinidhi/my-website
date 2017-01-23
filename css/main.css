@@ -118,6 +118,16 @@ h1 {
   text-align: center;
 }
 
+.pdf a {
+  text-decoration: underline;
+  color: #000;
+}
+
+.pdf a:hover {
+  text-decoration: underline;
+  color: #ccc;
+}
+
 .nav a {
   color: #ccc;
   ;
