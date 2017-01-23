@@ -62,11 +62,13 @@ img {
   padding: 0;
 }
 
-.l-3-4 {
+.l-sc {
   display: inline-block;
-  width: 45%;
+  width: 25%;
+}
+
+.l {
   text-align: center;
-  margin: 0 auto;
 }
 
 }
