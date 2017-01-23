@@ -1,8 +1,27 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+@-moz-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-o-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1;
+}
+
+@viewport {
+  width: device-width;
+  scale: 1;
+}
 
 html {
   -moz-text-size-adjust: 100%;
@@ -58,7 +77,6 @@ div:hover img {
   background-color: rgba(0, 0, 0, 0);
 }
 
-
 ul {
   list-style-type: none;
   padding: 0;
@@ -101,7 +119,8 @@ h1 {
 }
 
 .nav a {
-  color: #ccc;;
+  color: #ccc;
+  ;
   text-decoration: underline;
 }
 
@@ -120,10 +139,10 @@ h1 {
 .focus {
   border: 3px solid rgba(0, 0, 0, 0);
   -webkit-transition: all .3s ease-in-out;
-     -moz-transition: all .3s ease;
-       -o-transition: all .3s ease;
-      -ms-transition: all .3s ease;
-          transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  transition: all .3s ease-in-out;
 }
 
 .focus:hover {
@@ -137,39 +156,30 @@ h1 {
   padding-left: 1rem;
 }
 
-
 @media only screen and (min-width: 25em) {
-
-html {
-  font-size: 110%;
-  line-height: 1.4;
-}
-
-.img-flex {
-  width: 20%;
-}
-
-.pdf {
-  text-align: center;
-}
-
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+  .img-flex {
+    width: 20%;
+  }
+  .pdf {
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 38em) {
-
-.about {
-  padding: 6rem;
-  font-size: 1.5rem;
-}
-
+  .about {
+    padding: 6rem;
+    font-size: 1.5rem;
+  }
 }
 
 @media only screen and (min-width: 60em) {
-
   .p {
-      padding-top: 7rem;
+    padding-top: 7rem;
   }
-
   header {
     position: fixed;
     top: 0;
@@ -177,7 +187,6 @@ html {
     height: 7rem;
     position: relative;
   }
-
   .img-flex {
     width: 140px;
     float: left;
@@ -190,7 +199,6 @@ html {
     right: 40vw;
     left: 40vw;
   }
-
   h1 {
     width: 20%;
     float: left;
@@ -202,12 +210,10 @@ html {
     left: 40vw;
     height: 2rem;
   }
-
   .filler {
     width: 100vw;
     height: 100vh;
   }
-
   .nav {
     margin: 1rem 0 4rem;
     color: #fff;
@@ -222,18 +228,14 @@ html {
     background-color: #000;
     margin-top: 0;
     z-index: 50;
-
   }
-
   .nav a {
     color: #fff;
     text-decoration: none;
   }
-
   .nav a:visited {
     color: #ccc;
   }
-
   .about {
     height: 100vh;
     color: #000;
@@ -243,16 +245,14 @@ html {
     padding-top: 15rem;
     position: relative;
   }
-
-.me {
-  display: inline-block;
-  width: 30%;
-  position: absolute;
-  left: 70vw;
-  top: 15rem;
-}
+  .me {
+    display: inline-block;
+    width: 30%;
+    position: absolute;
+    left: 70vw;
+    top: 15rem;
+  }
   .pdf {
     text-align: left;
   }
-
 }
