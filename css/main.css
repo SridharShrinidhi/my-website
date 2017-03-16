@@ -55,6 +55,7 @@ header {
 
 .nav {
   padding: .5rem 0;
+  background-color: #ACBDD9;
 }
 
 .icon {
@@ -113,7 +114,7 @@ h1 {
 }
 
 .nav a {
-  color: #ccc;
+  color: #000;
   text-decoration: none;
 }
 
@@ -141,14 +142,14 @@ h1 {
 .card3 {
   width: 280px;
   height: 300px;
-  background-color: #D97555;
+  background-color: #416B86;
   color: #fff;
 }
 
 .card4 {
   width: 280px;
   height: 300px;
-  background-color: #416B86;
+  background-color: #C2BF7A;
   color: #fff;
 }
 
@@ -167,7 +168,7 @@ p {
   visibility: hidden;
 }
 
-a:hover > p:nth-child(2) {
+a:hover>p:nth-child(2) {
   visibility: visible;
 }
 
@@ -182,11 +183,12 @@ a:hover .card {
 
 .contact {
   text-align: center;
-  float: left;
   width: 100%;
-  background-color: #ccc;
+  background-color: #ACBDD9;
   padding: 1rem 1rem;
   color: #000;
+  max-width: 490px;
+  margin: 0 auto;
 }
 
 .contact a {
@@ -229,8 +231,12 @@ hr {
   margin: 0 5rem;
 }
 
-figcaption  p {
+figcaption p {
   color: #000;
+}
+
+.nav a:visited {
+  color: #fff;
 }
 
 @media only screen and (min-width: 25em) {
@@ -238,13 +244,36 @@ figcaption  p {
     font-size: 110%;
     line-height: 1.4;
   }
-
   .img-flex {
     width: 20%;
   }
-
   .pdf {
     text-align: center;
+  }
+  .card {
+    width: 100%;
+  }
+  .card1 {
+    width: 100%;
+  }
+  .card2 {
+    width: 100%;
+  }
+  .card3 {
+    width: 100%;
+  }
+  .card4 {
+    width: 100%;
+  }
+  .card5 {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+  .about {
+    padding: 6rem;
+    font-size: 1.5rem;
   }
 
   .card {
@@ -273,18 +302,10 @@ figcaption  p {
 
 }
 
-@media only screen and (min-width: 38em) {
-  .about {
-    padding: 6rem;
-    font-size: 1.5rem;
-  }
-}
-
 @media only screen and (min-width: 60em) {
   .p {
     padding-top: 7rem;
   }
-
   header {
     position: fixed;
     top: 0;
@@ -292,7 +313,6 @@ figcaption  p {
     height: 7rem;
     position: relative;
   }
-
   .img-flex {
     width: 140px;
     float: left;
@@ -305,7 +325,6 @@ figcaption  p {
     right: 40vw;
     left: 40vw;
   }
-
   h1 {
     width: 20%;
     float: left;
@@ -317,7 +336,6 @@ figcaption  p {
     left: 40vw;
     height: 2rem;
   }
-
   .filler {
     width: 100vw;
     height: 100vh;
@@ -325,7 +343,7 @@ figcaption  p {
 
   .nav {
     margin: 1rem 0 4rem;
-    color: #fff;
+    color: #000;
     width: 100%;
     text-align: center;
     float: left;
@@ -334,18 +352,17 @@ figcaption  p {
     position: fixed;
     width: 100%;
     top: 0;
-    background-color: #000;
+    background-color: #ACBDD9;
     margin-top: 0;
     z-index: 50;
   }
-
   .nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
   }
 
   .nav a:visited {
-    color: #ccc;
+    color: #fff;
   }
 
   .about {
@@ -357,7 +374,6 @@ figcaption  p {
     padding-top: 15rem;
     position: relative;
   }
-
   .me {
     display: inline-block;
     width: 30%;
@@ -365,34 +381,25 @@ figcaption  p {
     left: 70vw;
     top: 15rem;
   }
-
   .pdf {
     text-align: left;
   }
-
   .card {
     width: 32%;
   }
-
   .card1 {
     width: 32%;
   }
-
   .card2 {
     width: 32%;
   }
-
   .card3 {
     width: 32%;
   }
-
   .card4 {
     width: 32%;
   }
-
   .card5 {
     width: 32%;
   }
-
-
 }
