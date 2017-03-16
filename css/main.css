@@ -47,7 +47,7 @@ header {
 }
 
 .img-flex {
-  width: 50%;
+  width: 100%;
   display: block;
   text-align: center;
   margin: 1rem auto;
@@ -59,22 +59,6 @@ header {
 
 .icon {
   display: none;
-}
-
-figcaption {
-  text-align: center;
-}
-
-.description {
-  text-align: center;
-  display: inline-block;
-  width: 100%;
-  padding: 0 1rem 2rem;
-  margin-top: 0;
-}
-
-div:hover img {
-  background-color: rgba(0, 0, 0, 0);
 }
 
 ul {
@@ -130,8 +114,70 @@ h1 {
 
 .nav a {
   color: #ccc;
-  ;
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.card {
+  width: 280px;
+  height: 300px;
+  background-color: #B6464F;
+  color: #fff;
+}
+
+.card1 {
+  width: 280px;
+  height: 300px;
+  background-color: #416B86;
+  color: #fff;
+}
+
+.card2 {
+  width: 280px;
+  height: 300px;
+  background-color: #C2BF7A;
+  color: #fff;
+}
+
+.card3 {
+  width: 280px;
+  height: 300px;
+  background-color: #D97555;
+  color: #fff;
+}
+
+.card4 {
+  width: 280px;
+  height: 300px;
+  background-color: #416B86;
+  color: #fff;
+}
+
+.card5 {
+  width: 280px;
+  height: 300px;
+  background-color: #B6464F;
+  color: #fff;
+}
+
+p {
+  color: #fff;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+a:hover > p:nth-child(2) {
+  visibility: visible;
+}
+
+a:hover .card {
+  background-color: #B6464F;
+  opacity: 0.5;
+}
+
+.clear {
+  color: #000;
 }
 
 .contact {
@@ -140,23 +186,15 @@ h1 {
   width: 100%;
   background-color: #ccc;
   padding: 1rem 1rem;
+  color: #000;
 }
 
 .contact a {
   color: #000;
 }
 
-.focus {
-  border: 3px solid rgba(0, 0, 0, 0);
-  -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease;
-  -o-transition: all .3s ease;
-  -ms-transition: all .3s ease;
-  transition: all .3s ease-in-out;
-}
-
-.focus:hover {
-  border: 3px solid #000;
+.contact p {
+  color: #000;
 }
 
 .me {
@@ -166,17 +204,73 @@ h1 {
   padding-left: 1rem;
 }
 
+.img {
+  width: 100%;
+}
+
+.img1 {
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.img2 {
+  display: inline-block;
+  width: 48%;
+}
+
+.img3 {
+  display: inline-block;
+  width: 32%;
+}
+
+hr {
+  border: 1px solid #000;
+  margin: 0 5rem;
+}
+
+figcaption  p {
+  color: #000;
+}
+
 @media only screen and (min-width: 25em) {
   html {
     font-size: 110%;
     line-height: 1.4;
   }
+
   .img-flex {
     width: 20%;
   }
+
   .pdf {
     text-align: center;
   }
+
+  .card {
+    width: 49%;
+  }
+
+  .card1 {
+    width: 49%;
+  }
+
+  .card2 {
+    width: 49%;
+  }
+
+  .card3 {
+    width: 49%;
+  }
+
+  .card4 {
+    width: 49%;
+  }
+
+  .card5 {
+    width: 49%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -190,6 +284,7 @@ h1 {
   .p {
     padding-top: 7rem;
   }
+
   header {
     position: fixed;
     top: 0;
@@ -197,6 +292,7 @@ h1 {
     height: 7rem;
     position: relative;
   }
+
   .img-flex {
     width: 140px;
     float: left;
@@ -209,6 +305,7 @@ h1 {
     right: 40vw;
     left: 40vw;
   }
+
   h1 {
     width: 20%;
     float: left;
@@ -220,10 +317,12 @@ h1 {
     left: 40vw;
     height: 2rem;
   }
+
   .filler {
     width: 100vw;
     height: 100vh;
   }
+
   .nav {
     margin: 1rem 0 4rem;
     color: #fff;
@@ -239,13 +338,16 @@ h1 {
     margin-top: 0;
     z-index: 50;
   }
+
   .nav a {
     color: #fff;
     text-decoration: none;
   }
+
   .nav a:visited {
     color: #ccc;
   }
+
   .about {
     height: 100vh;
     color: #000;
@@ -255,6 +357,7 @@ h1 {
     padding-top: 15rem;
     position: relative;
   }
+
   .me {
     display: inline-block;
     width: 30%;
@@ -262,7 +365,34 @@ h1 {
     left: 70vw;
     top: 15rem;
   }
+
   .pdf {
     text-align: left;
   }
+
+  .card {
+    width: 32%;
+  }
+
+  .card1 {
+    width: 32%;
+  }
+
+  .card2 {
+    width: 32%;
+  }
+
+  .card3 {
+    width: 32%;
+  }
+
+  .card4 {
+    width: 32%;
+  }
+
+  .card5 {
+    width: 32%;
+  }
+
+
 }
